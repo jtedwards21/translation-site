@@ -16,8 +16,10 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+          <p><strong>Do you have a global business? Are you competing within international markets with multiple languages and platforms?</strong></p>
+          <p>If the answer is yes, then localization of your website, mobile app, videogame or software should be a vital component of your marketing strategy. It’s essential to not deliver an averagely-translated marketing message that your prospects merely understand; you want to speak to them in their own language and create a message that truly resonates with them.</p>
+          <p>Localization and translation services complement one another and ensure your brand message hits its mark. Localization optimizes your content by using precise, targeted keywords that will improve your search engine ranking and conversion rate. Trust your global growth and success with one of the most reputable translation and localization companies in the industry</p>
+
           {close}
         </article>
 
