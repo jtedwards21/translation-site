@@ -23,24 +23,17 @@ class Main extends React.Component {
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Work</h2>
+          <h2 className="major">Services</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
-          <p>We have experience in the following areas. PDF work samples are provided for your convenience.</p>
-          <p><strong>Technical: </strong><a href="#">Sample</a><strong><br/>Marketing: </strong><a href="#">Sample</a><strong><br/>SEO and SEM: </strong><a href="#">Sample</a><strong><br/>Online Retailers: </strong><a href="#">Sample</a></p>
+          <h3>Marketing</h3>
+          <p>For companies interested in marketing their product in China we offer WeChat account setup and management. More and more companies are now developing distinct profiles on WeChat to promote their brand and do so through the creation and management of WeChat mini-sites.</p>
+          <h3>Translation</h3>
+          <p>We offer both Chinese-English and English-Chinese translation with fast turnaround. All projects are done by native speakers with relevant experience. Our areas of experience include: Technical, Marketing, Travel and Online Retail.</p>
+          <h3>Localization</h3>
+          <p>In addition to translation, we offer localization services, working with our customers to prepare web pages and mobile applications for the Chinese market.</p>
           {close}
         </article>
 
-        <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">About</h2>
-          <span className="image main"><img src={pic03} alt="" /></span>
-          <p>My name is Joshua. I was born in the United States and am fluent in English and Mandarin Chinese. </p>
-          <p>I have a degree in computer science from the University of North Carolina and have worked in the technical and business sectors in China and the United States for several years.</p>
-          <p>I translate from Mandarin Chinese to English. The majority of my experience is in website and text translation (various topics). Keeping deadlines is a top priority for me.</p>
-          <p>Some are the topics I specialize in are:</p>
-          <p><strong>Technical<br/>Marketing<br/>SEO and SEM<br/>Online Retailers</strong></p>
-          <p>As an English native speaker I guarantee that my translations will be correct and that you will be satisfied. Feel free to contact me any time!</p>
-          {close}
-        </article>
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
