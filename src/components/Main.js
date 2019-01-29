@@ -38,7 +38,7 @@ class Main extends React.Component {
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
-          <p>We have done a variety of projects in different areas and present </p>
+          <p>We have done a variety of projects in different areas and are happy to submit samples of previous work upon request. </p>
           {close}
         </article>
 
