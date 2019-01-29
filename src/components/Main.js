@@ -26,6 +26,13 @@ class Main extends React.Component {
           <p className="align-center">Translation Tools enables us to deliver your project quickly and efficiently.</p>
           <hr/>
           <h3 className="align-center">Experience Translators and Proofreaders</h3>
+          <p>All our translators are native speakers and we have specialists in a wide range of sectors to ensure the highest possible quality.</p>
+          <hr/>
+          <h3 className="align-center">Turnaround to Suit Your Deadline</h3>
+          <p className="align-center">We can provide accurate translation with a fast turnaround, often in 24 hours or at weekends for especially urgent projects.</p>
+          <hr/>
+          <h3 className="align-center">Dedicated Project Management</h3>
+          <p className="align-center">Every client gets an assigned project manager who will oversee your translations and ensure that they're delivered on time and to a high standard.</p>
           {close}
         </article>
 
